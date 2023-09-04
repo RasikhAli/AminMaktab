@@ -1,0 +1,56 @@
+1. Login Page 
+   -> Email Field
+   -> Password Field
+   -> Login Button
+
+2. 3 buttons 
+   -> ORP (Out Reach Projects)
+   -> Inclusive Education
+   -> CBR (Community Based Rehability Projects)
+
+---------------------------------------------------
+
+Date date2 = new SimpleDateFormat("yyyy-MM-dd").parse(data);
+DateofExamField.setDate(date2);
+
+((JTextField)DOBField.getDateEditor().getUiComponent()).getText();
+
+(((JTextField)DateofExamField.getDateEditor().getUiComponent()).getText());
+
+-> DOB -> father & mother
+-> Date -> select date / dropdown
+-> Age -> dropdown (85limit)
+-> Sex -> dropdown
+-> Birth Order -> dropdown (12)
+-> Religion -> dropdown (Muslim, Christian, Hindu, Other)
+-> Dead change to Alive
+-> Siblings -> Remove tablesection.
+-> Siblings Attitude towards target child -> add checkboxes
+ -> Cooperative
+ -> Harsh
+ -> In-Different
+-> Child relationship with siblings -> add checkboxes
+ -> Cooperative
+ -> Non-Cooperative
+-> Development Milestones -> Early Sucking* Response Delayed -> Dropdown (yes/no)
+-> Father & Mother 
+ -> Education -> Dropdown (Nill, Primary, Secondary, Intermediate, Bachelors Graduate, Post Graduate)
+ -> Income -> Dropdown (<10k, 10k -- 20k, 20k -- 50k, 50k -- 100k, >100k)
+ -> Health -> checkbox (good, poor, specify field(remains))
+        -> Mental Health -> checkbox (good, poor, specify field(remains))
+ -> Martial Relationship -> add Widow
+
+   -> Add email
+   -> Presentation Complaints -> add checkboxes
+   -> History of illness -> add checkboxes
+   -> Disabilities in Family
+	-> Patenomal & Metanomal -> add checkboxes
+   -> Specific Behavior -> add dropdowns
+	-> Appearance -> dropdown (good/poor)
+	-> Eye Contact -> dropdown (good/poor)
+	-> Compliance -> dropdown (good/poor)
+	-> on feet -> dropdown (good/poor)
+	-> hobbies -> dropdown (good/poor)
+   -> Management Plan -> replace into checkboxes
+	-> add occupational therapy
+	-> add sports
